@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+h1{
+    font-family: 'Ubunto', sans-serif;
+    font-size: 22px;
+}
+
+h2{
+    font-family: 'Ubunto', sans-serif;
+}
+
+h3{
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+span{
+    font-family: 'Roboto';
+    font-size: 22px;
+}
+
+p{
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.img-thumbnail{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.social-media{
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.main-section {
+    overflow: hidden;
+}
+
+.description-section {
+    overflow-y: auto;
+    max-height: calc(80vh - 50px);
+}
+
+.card-header{
+    background-color: #000000;
+    color: white;
+}
+
+.card-body{
+    background-color: #343949;
+    color: white;
+}
+
+main, body{
+    background-color: #112044;
+    color: white;
+}
